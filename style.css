@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+
+body{
+    color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Qahiri', sans-serif;
+    font-size: 250%;
+}
+
+#diceImage{
+    margin: 10px;
+    height: 200px;
+}
+
+.gameStats{
+    display: flex;
+}
+
+.hidden{
+    display: none;
+}
+
+h1{
+    margin: 15px;
+}
+
+button{
+    padding: 15px 40px;
+    font-family: 'Qahiri', sans-serif;
+    font-size: 65%;
+    border: 5px solid black;
+    border-radius: 150%;
+}
+
+@media screen and (max-width: 500px){
+    body{
+        height: auto;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .gameStats{
+        flex-direction: column;
+    }
+}
+
+body {
+    background-image: url("https://i.pinimg.com/564x/3d/10/cf/3d10cf967aa7bc7fdf42c506f0f026f2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #cccccc;
+  }
